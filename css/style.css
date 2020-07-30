@@ -30,10 +30,19 @@ address {
 }
 
 body{
-    padding: 50px 0 0 50px;
+    /*padding: 50px 0 0 50px;*/
     z-index: 0;
 }
 
 .navbar-dark {
     background: #512DA8;
+}
+
+.card-header, .btn-cta {
+    background-color: darkorange;
+}
+
+.btn-cta {
+    color: black;
+    padding: 9px 28px 9px 28px;
 }
